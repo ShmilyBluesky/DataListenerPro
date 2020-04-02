@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWidget</class>
+ <widget class="QWidget" name="MainWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>720</width>
+    <height>452</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWidget</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="Wnd1" name="widget" native="true"/>
+   </item>
+   <item>
+    <widget class="Wnd2" name="widget_2" native="true"/>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>Wnd1</class>
+   <extends>QWidget</extends>
+   <header location="global">wnd1.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>Wnd2</class>
+   <extends>QWidget</extends>
+   <header location="global">wnd2.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
